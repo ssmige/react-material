@@ -1,0 +1,28 @@
+body {
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+
+header {
+  color: hsl(160, 87%, 82%);
+  background-color: #76bb85;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: rgb(202, 231, 235);
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 10rem;
+}
+
+ul {
+  margin-top: 0;
+  padding-top: 3rem;
+  justify-content: center;
+}
