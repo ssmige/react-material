@@ -1,0 +1,8 @@
+.container {
+  margin: auto;
+  width: 60%;
+  padding-left: 2rem;
+}
+input {
+  margin-bottom: 20px;
+}
