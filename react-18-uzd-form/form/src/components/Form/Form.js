@@ -9,9 +9,8 @@ export default function Form() {
   const [username, setUserName] = useState("");
   const [isUserNameValid, setIsUserNameValid] = useState(true);
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  // const [message, setMessage] = useState("");
   const [isEmailValid, setIsEmailValid] = useState(true);
-  // const [button, setButton] = useState();
 
   useEffect(() => {
     if (username.length > 3) {
@@ -66,6 +65,7 @@ export default function Form() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
+
       <Button onClick={() => {}} text={"Submit"} variant={"primary"} />
       <Button onClick={() => {}} text={"Cancel"} variant={"secondary"} />
     </form>
