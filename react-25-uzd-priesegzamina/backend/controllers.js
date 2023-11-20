@@ -12,7 +12,7 @@ export async function createUser(req, res) {
     });
 
     await user.save();
-    res.status(201).json(person);
+    res.status(201).json(user);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

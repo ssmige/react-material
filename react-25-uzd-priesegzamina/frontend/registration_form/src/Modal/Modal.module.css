@@ -1,0 +1,42 @@
+.container {
+  position: fixed;
+  background-color: #f2877d;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  top: 0;
+}
+
+.innerContainer {
+  background-color: aliceblue;
+  width: 80%;
+  margin: auto;
+  color: #000;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.socialButton {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.socialButton :hover {
+  opacity: 0.9;
+  cursor: pointer;
+  background-color: #4f70b5;
+  color: #ffffff;
+}
+
+.header {
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+h3 {
+  text-align: center;
+}

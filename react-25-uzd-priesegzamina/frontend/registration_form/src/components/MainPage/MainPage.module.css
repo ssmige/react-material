@@ -1,0 +1,35 @@
+body {
+  background-color: #f2877d;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.head > h1 {
+  text-align: center;
+  color: blue;
+}
+
+.logoLetter {
+  width: 50px;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+.picturesContainer {
+  width: 100%;
+  margin: auto;
+}
+.imgMain {
+  width: 800px;
+  /* text-align: center; */
+  margin: auto;
+}
